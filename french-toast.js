@@ -1,6 +1,6 @@
 'use strict';
 angular.module('french-toast', [ionic, ngCordova])
-	.factory('Toast', function($timeout, $cordovaToast, $q, $ionicLoading) {
+	.factory('FrenchToast', function($timeout, $cordovaToast, $q, $ionicLoading) {
 		return {
 			show: function(message, duration, position) {
 				message = message || 'There was a problem...';

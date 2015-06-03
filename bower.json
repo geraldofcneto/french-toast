@@ -1,0 +1,28 @@
+{
+  "name": "french-toast",
+  "main": "french-toast.js",
+  "version": "0.0.1",
+  "authors": [
+    "Geraldo Castro <geraldofcneto@gmail.com>"
+  ],
+  "description": "Use FrenchToast instead of $cordovaToast. Work in progress.",
+  "keywords": [
+    "toast",
+    "angular",
+    "cordova",
+    "ionic"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ionic": "*",
+    "ngCordova": "*"
+  }
+}
